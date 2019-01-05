@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import TodoItem from './TodoItem';
+import style from './style.css';
 
 class TodoList extends Component {
   constructor(props) {
@@ -60,13 +61,13 @@ class TodoList extends Component {
   //子组件通过props接受父组件传递过来的参数
   render() {
     return (
-      <div>
+      <React.Fragment>
         <div>
           <input value={this.state.inputvalue} onChange={this.handleInputChange}/>
-          <button onClick={this.handleBtnClick}>add</button>
+          <button className='red-btn' onClick={this.handleBtnClick}>add</button>
         </div>
         <ul>{this.getTdoItems()}</ul>
-      </div>
+      </React.Fragment>
     );
   }
 }
