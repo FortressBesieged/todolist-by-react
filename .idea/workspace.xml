@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b09cd5b9-badc-498a-9af6-7308968d3f15" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TodoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TodoList.js" afterDir="false" />
-    </list>
+    <list default="true" id="b09cd5b9-badc-498a-9af6-7308968d3f15" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -29,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TodoList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
+            <state relative-caret-position="1197">
+              <caret line="63" column="7" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -50,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TodoItem.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+            <state relative-caret-position="57">
+              <caret line="3" column="35" lean-forward="true" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -72,15 +68,15 @@
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/TodoIem.js" />
-        <option value="$PROJECT_DIR$/src/TodoItem.js" />
         <option value="$PROJECT_DIR$/src/style.css" />
         <option value="$PROJECT_DIR$/src/TodoList.js" />
+        <option value="$PROJECT_DIR$/src/TodoItem.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="226" />
-    <option name="y" value="28" />
+    <option name="x" value="751" />
+    <option name="y" value="11" />
     <option name="width" value="1382" />
     <option name="height" value="836" />
   </component>
@@ -144,7 +140,7 @@
       <updated>1546506603896</updated>
       <workItem from="1546506608288" duration="1771000" />
       <workItem from="1546581446277" duration="2538000" />
-      <workItem from="1546657812318" duration="7541000" />
+      <workItem from="1546657812318" duration="8319000" />
     </task>
     <task id="LOCAL-00001" summary="精简代码结构">
       <created>1546581896090</created>
@@ -188,15 +184,28 @@
       <option name="project" value="LOCAL" />
       <updated>1546665511756</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="代码优化">
+      <created>1546666385366</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1546666385366</updated>
+    </task>
+    <task id="LOCAL-00008" summary="代码优化">
+      <created>1546666513304</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1546666513304</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11850000" />
+    <option name="totallyTimeSpent" value="12628000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="226" y="28" width="1382" height="836" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34672618" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -269,13 +278,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TodoItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -285,11 +287,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TodoList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
+        <state relative-caret-position="1197">
+          <caret line="63" column="7" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TodoItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="35" lean-forward="true" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
         </state>
       </provider>
     </entry>
