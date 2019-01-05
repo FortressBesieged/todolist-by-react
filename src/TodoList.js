@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import TodoItem from './TodoItem';
 import style from './style.css';
 
@@ -61,13 +61,13 @@ class TodoList extends Component {
   //子组件通过props接受父组件传递过来的参数
   render() {
     return (
-      <React.Fragment>
+      <Fragment>
         <div>
           <input value={this.state.inputvalue} onChange={this.handleInputChange}/>
           <button className='red-btn' onClick={this.handleBtnClick}>add</button>
         </div>
         <ul>{this.getTdoItems()}</ul>
-      </React.Fragment>
+      </Fragment>
     );
   }
 }
