@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import TodoItem from './TodoItem';
 
 class TodoList extends Component {
   constructor(props) {
@@ -30,6 +31,8 @@ class TodoList extends Component {
       })
   }
 
+  //父组件通过属性的形式向子组件传递参数
+  //子组件通过props接受父组件传递过来的参数
   render() {
     return (
       <div>
@@ -40,7 +43,8 @@ class TodoList extends Component {
         <ul>
           {
               this.state.list.map((item, index) => {
-                  return <li key={index} onClick={this.handleItemClick.bind(this, index)}>{item}</li>
+                  return <TodoItem key={index} content={item}/>
+                  // return <li key={index} onClick={this.handleItemClick.bind(this, index)}>{item}</li>
               })
           }
         </ul>
